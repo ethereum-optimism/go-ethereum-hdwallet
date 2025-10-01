@@ -9,6 +9,7 @@ import (
 	"os"
 	"sync"
 
+	"github.com/base/go-bip39"
 	"github.com/btcsuite/btcd/btcutil/hdkeychain"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/ethereum/go-ethereum"
@@ -17,7 +18,6 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/tyler-smith/go-bip39"
 )
 
 // DefaultRootDerivationPath is the root path to which custom derivation endpoints

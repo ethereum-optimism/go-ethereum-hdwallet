@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/ethereum-optimism/go-ethereum-hdwallet"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/miguelmota/go-ethereum-hdwallet"
 )
 
 func main() {
